@@ -45,13 +45,13 @@
 // -----------------------------------------------------------------------------------------
 // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  -  |  +  |  =  |  (  |  )  | BKSP |
 // | LC(LGUI)  |  ^  |  &  |  *  |  _  |  ~  |   |  ;  |  :  | "|" |  [  |  ]  | ENT  |
-// | SHFT |  /  |  \  |     |     |     |   |  `  |     |     |  {  |  }  |      |
+// | SHFT |  /  |  \  |  ?   |     |     |   |  `  |     |     |  {  |  }  |      |
 //                    | GUI |     | SPC |   | SPC |     | ALT |
                         display-name = "Raise";
                         bindings = <
    &kp  TAB  &kp EXCL  &kp AT   &kp HASH        &kp DLLR    &kp PRCNT   &kp MINUS   &kp PLUS &kp EQUAL &kp LPAR  &kp RPAR   &kp BSPC
    &kp  LCTRL  &kp CARET &kp AMPS &kp ASTERISK &kp UNDER   &kp TILDE   &kp SEMI    &kp COLON&kp PIPE  &kp LBKT  &kp RBKT   &kp RET
-   &kp LSHFT &kp FSLH  &kp BSLH &trans          &trans      &trans      &kp GRAVE   &trans   &trans    &kp LBRC  &kp RBRC   &trans
+   &kp LSHFT &kp FSLH  &kp BSLH &kp LS(SLASH)          &trans      &trans      &kp GRAVE   &trans   &trans    &kp LBRC  &kp RBRC   &trans
                     	     &kp LGUI &trans   &kp SPACE    &kp SPACE   &trans    &kp RALT
                         >;
                 };
