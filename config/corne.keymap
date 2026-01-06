@@ -22,7 +22,7 @@
                         bindings = <
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
    &kp LCTRL   &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SQT  &kp RET
-   &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp DQT &kp ESC
+   &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
                    &kp LGUI    &mo 1 &kp SPACE   &kp SPACE &mo 2 &kp RALT
                         >;
                 };
@@ -51,7 +51,7 @@
                         bindings = <
    &kp  TAB  &kp EXCL  &kp AT   &kp HASH        &kp DLLR    &kp PRCNT   &kp MINUS   &kp PLUS &kp EQUAL &kp LPAR  &kp RPAR   &kp BSPC
    &kp  LCTRL  &kp CARET &kp AMPS &kp ASTERISK &kp UNDER   &kp TILDE   &kp SEMI    &kp COLON&kp PIPE  &kp LBKT  &kp RBKT   &kp RET
-   &kp LSHFT &kp FSLH  &kp BSLH &kp LS(SLASH)          &trans      &trans      &kp GRAVE   &trans   &trans    &kp LBRC  &kp RBRC   &trans
+   &kp LSHFT &kp FSLH  &kp BSLH &trans          &trans      &trans      &kp GRAVE   &trans   &trans    &kp LBRC  &kp RBRC   &trans
                     	     &kp LGUI &trans   &kp SPACE    &kp SPACE   &trans    &kp RALT
                         >;
                 };
