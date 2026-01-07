@@ -18,7 +18,7 @@
 // | LC(LGUI)  |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  '  | ENT  |
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
 //                    | GUI | LWR | SPC |   | SPC | RSE  | ALT |
-                        display-name = "Base";
+                        display-name = "Big Brain";
                         bindings = <
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
    &kp LCTRL   &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SQT  &kp RET
